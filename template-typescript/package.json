@@ -1,0 +1,24 @@
+{
+  "name": "codekata-template-typescript",
+  "version": "1.0.0",
+  "author": "Sergio Gómez <sergio@uco.es>",
+  "main": "index.js",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.9.6",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.2.2",
+    "jest-mock-extended": "^2.0.4",
+    "prettier": "^2.0.5",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "jest"
+  }
+}
